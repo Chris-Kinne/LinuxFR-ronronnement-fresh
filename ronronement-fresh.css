@@ -625,7 +625,7 @@ code .na {
 	color: #336699
 }
 
-code . nb {
+code .nb {
 	color: #003388
 }
 
@@ -1630,7 +1630,7 @@ article .score {
 
 article .datePourCss {
 	display: block !important;
-	background: # 7387c5;
+	background: #7387c5;
 	-webkit-border-image: url("/images/contrib/RonRonnement/coin-transparent.png") 0 0 0 15;
 	border-image: url("/images/contrib/RonRonnement/coin-transparent.png") 0 0 0 15;
 	border-style: solid;
@@ -2231,7 +2231,7 @@ body#boards-show #container {
 }
 
 #redaction_board .attendee img {
-	max- height: 100%
+	max-height: 100%
 }
 
 #redaction_board .attendee form {
@@ -2758,7 +2758,7 @@ body#registrations-edit table th.date {
 }
 
 body#dashboard-index #contents table td.number,
-body#dashboard-index # contents table th.number,
+body#dashboard-index #contents table th.number,
 body#trackers-index #contents table td.number,
 body#trackers-index #contents table th.number,
 body#applications-index table td.number,
@@ -2996,7 +2996,7 @@ handheld {
 		width: 100px;
 		margin: 0 10px
 	}
-	# sidebar .box ul {
+	#sidebar .box ul {
 		margin: 5px
 	}
 	#sidebar .box p,
