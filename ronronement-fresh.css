@@ -920,7 +920,7 @@ input[type='submit'] {
 	background-color: #E9E6E4;
 	border: 1px solid #a9a9a9;
 	border-radius: 3px;
-	font-size: medium;
+	font-size: 1.1em;
 }
 
 button:hover,
@@ -932,8 +932,8 @@ a.edit_client_app:hover,
 #comments #send-comment a:hover,
 #redaction a.reorganize:hover,
 input[type='submit']:hover {
-	background-color: #93877B;
-	border: 1px solid #93877B;
+	background-color: #93877b96;
+	border: 1px solid #93877b96;
 	text-decoration: none;
 }
 
