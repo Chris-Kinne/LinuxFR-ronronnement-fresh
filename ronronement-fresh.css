@@ -1334,23 +1334,20 @@ a.edit_client_app,
 
 #site {
 	display: block;
-	top: 0;
 	background-color: #fff;
 	float: right;
-	/* position: absolute; */
 	z-index: 1;
-	padding-top: 20px;
-	/* width:100%; */
-	/* left: 0; */
-	padding-right: 18px;
+	padding: 20px 62px 20px 30px;
 	text-align: right;
+	vertical-align: middle;
 	text-transform: uppercase;
+	/* line-height: 15px; */
 	font-size: 0.9em;
-	/* margin-left: 200px; */
 	color: #7384b9;
-	/* background-color:#bdb3aa; */
-	/* background:-webkit-linear-gradient(left, #fff, #e7e3e0 201px, #bdb3aa 50%); */
-	/* background:linear-gradient(to right, #fff, #e7e3e0 201px, #bdb3aa 50%); */
+}
+
+#site ul {
+	margin: 0;
 }
 
 #site .go_to_content {
@@ -1482,7 +1479,7 @@ a.edit_client_app,
 	margin: 0 0 0 242px;
 	clear: right;
 	background: #ffffff;
-	padding: 20px 62px 10px 30px;
+	padding: 1px 62px 10px 30px;
 }
 
 #container>h1:first-of-type {
@@ -3129,6 +3126,23 @@ handheld {
 	body#comments-update #contents>ul>li#comment_new {
 		padding: 10px
 	}
+}
+
+@media screen and (max-width: 1196px) {
+	#site {
+		float: none;
+		text-align: center;
+		background-color: #ebebeb;
+	}
+
+	#container {
+		display: block;
+		margin: 0 0 0 242px;
+		clear: right;
+		background: #ffffff;
+		padding: 20px 62px 10px 30px;
+	}
+
 }
 
 @media screen and (max-width: 600px),
