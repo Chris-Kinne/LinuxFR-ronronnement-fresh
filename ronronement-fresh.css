@@ -1941,7 +1941,7 @@ a.scroll {
 
 .toolbox .follow_feed,
 .toolbox .new_content {
-	float: right
+	float: right;
 }
 
 .toolbox a:hover {
@@ -1949,7 +1949,8 @@ a.scroll {
 }
 
 .toolbox .order_navbar {
-	padding-top: 10px
+	padding-top: 10px;
+	/* clear: right; */
 }
 
 .toolbox .order_navbar ul,
@@ -2984,13 +2985,15 @@ handheld {
 	}
 	#sidebar {
 		background: #fff;
-		width: 100%;
-		margin-top: 5px
+		width: auto;
+		padding: 8px;
+		float: none;
+		overflow: hidden;
 	}
 	#sidebar #branding {
 		float: right;
 		width: 201px;
-		margin-right: 35px
+		margin-right: 5px;
 	}
 	#sidebar .box {
 		min-height: 0;
@@ -3150,6 +3153,15 @@ handheld {
 
 	#container {
 		padding-top: 20px;
+	}
+
+	.toolbox .follow_feed a,
+	.toolbox .new_content a {
+		font-size: 1em;
+	}
+
+	.order_navbar {
+		clear: right;
 	}
 
 }
